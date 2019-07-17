@@ -34,7 +34,7 @@ public:
 		return str;
 	}
 
-	String(int size = 80) : size(size == 0 ? 80 : size > 0 ? size : -size), str(new char[size] {})
+	String(int size = 80) : size(size == 0 ? 80 : size > 0 ? size : -size), str(new char[this->size] {})
 	{
 		/*this->size = size;
 		this->str = new char[size] {};*/
